@@ -1,0 +1,214 @@
+@charset "UTF-8";
+@font-face {
+    font-family: fontelogo;
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-indent: 30px;
+    text-align: justify;
+}
+header#cabecalho{
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background-image: url("../_imagens/glass-logo-peq.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px 80px;
+}
+header#cabecalho img#icone{
+    position: absolute;
+    left: 1290px;
+    top: 70px;
+}
+header#cabecalho h1{
+    font-family: fontelogo, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #606060;
+    text-shadow: 1px 1px 1px black;
+}
+header#cabecalho h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #888;
+    font-size: 15pt;
+}
+figure.foto-legenda{
+    position: relative;
+    border: 1px solid white;
+    box-shadow: 1px 1px 4px rgb(74, 68, 68);
+    display: inline-block;
+    padding: 5px;
+}
+
+figure.foto-legenda img{
+    width: 100%;
+}
+
+figure.foto-legenda figcaption{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: aliceblue;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    padding: 5px;
+    box-sizing: border-box;
+    opacity: 0;
+}
+
+figure.foto-legenda figcaption:hover{
+    opacity: 1;
+}
+
+nav{
+    background-color: aqua;
+}
+
+nav#menu ul{
+    position: absolute;
+    top: 0;
+    right: 560px;
+}
+
+nav#menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ddd;
+    margin: 1px;
+    transition: all linear 0.5s;
+}
+li:hover{
+    background-color: #606060;
+}
+a{
+    color: #606060;
+    text-decoration: none;
+}
+
+nav#menu li:hover a{
+    color: azure;
+}
+
+div#interface{
+    width: 1000px;
+    height: auto;
+    background-color: #fff;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgb(41, 40, 40);
+    padding: 10px;
+}
+
+section#corpo{
+    display: block;
+    width: 650px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 5px;
+}
+
+aside#lateral{
+    display: block;
+    width: 334px;
+    float: left;
+    padding-left: 10px;
+    background-color: #ddd;
+    box-shadow: 2px 2px 5px #606060;
+}
+
+aside#lateral h1{
+    font-family: fontelogo;
+    font-size: 20pt;
+    color: #606060;
+}
+
+aside#lateral h2{
+    background-color: #606060;
+    font-size: 13pt;
+    color: #fff;
+    padding: 5px;
+}
+
+
+
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #606060;
+    padding: 20px;
+}
+
+footer#rodape p{
+    text-align: center;
+}
+
+video{
+    width: 100%;
+}
+
+table#tabela{
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin: auto;
+}
+
+table#tabela td{
+    border: 1px solid #606060;
+    padding: 10px;
+}
+
+table#tabela td.td{
+    text-align: right;
+    background-color: #606060;
+    color: #fff;
+    vertical-align: top;
+}
+
+table#tabela caption{
+    color: #888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+table#tabela caption span{
+    display: block;
+    float: right;
+    color: #888;
+    font-size: 8pt;
+}
+
+article#noticia h2{
+    font-size: 12pt;
+    color: #606060;
+    background-color: #ddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo h1{
+    font-family: fontelogo;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+}
+
+header#cabecalho-artigo h2{
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #fff;
+    margin: 0px;
+}
+
+header#cabecalho-artigo h3{
+    font-size: 12px;
+    color: #606060;
+}
+.direita{
+    text-align: right;
+}
